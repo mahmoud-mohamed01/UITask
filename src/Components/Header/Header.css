@@ -105,19 +105,19 @@ header {
 }
 
 @media (max-width: 600px) {
-  header {
+ header {
+    flex-direction: column;
+    margin-bottom: 100%;
     gap: 0;
   }
   .search-left input {
     min-width: 0;
   }
   .logo img {
-    width: 150px;
+    width: 100%;
   }
 
   .search {
-    flex-basis: 50%;
-    flex-wrap: wrap;
-    min-width: 50%;
+    display: block;
   }
 }
