@@ -108,17 +108,16 @@
 }
 
 @media (max-width: 600px) {
-  .alerts {
-    flex-wrap: wrap;
+ .alerts {
+    flex-direction: column;
+    align-items: center;
   }
   .alerts-icons {
-    flex-wrap: wrap;
-    gap: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
   }
-  .seprate {
+  .alerts-icons .seprate {
     display: none;
-  }
-  .filters {
-    margin-left: 10px;
   }
 }
