@@ -114,6 +114,9 @@
      padding: 0;
 
   }
+ .main-alerts {
+  width: 100%;
+  }
   .alerts-icons {
     flex-direction: column;
     align-items: flex-start;
